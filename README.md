@@ -18,15 +18,17 @@ pip install git+https://git@github.com/ping/instagram_private_api.git@1.6.0
 Download this repository.
 
 ## Usage
-Before your hide/unhide your stories from your followers you should save your current information with this command.
+### Step 1: Backup your current settings
+Before you hide/unhide your stories from your followers you should save your current information with this command.
 ```bash
 python instagram-hide-all.py fetch
 ```
 > This will ask your login information
 
-### Security warning
-The cache file "`data.bin`" includes your secret information. Please DO NOT Share it with anyone and when you don't need it, please delete it completely.
+> Security warning
+> The cache file "`data.bin`" includes your secret information. Please DO NOT Share it with anyone and when you don't need it, please delete it completely.
 
+### Step 2: Hide/Unhide
 To hide all your followers:
 ```bash
 python instagram-hide-all.py hide
@@ -37,7 +39,8 @@ To unhide all your followers:
 python instagram-hide-all.py unhide
 ```
 
-To reset to your preferred settings:
+### Step3: Restore settings
+After 24 hours you can reset to your preferred settings with this command:
 ```bash
 python instagram-hide-all.py reset
 ```
