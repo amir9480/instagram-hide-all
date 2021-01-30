@@ -1,8 +1,11 @@
 <h1 align="center">Instagram Hide All</h1>
+
 <div align="center">
     <img src="./screenshot.gif">
 </div>
-<h2>Temporary hide/unhide all of your Instagram followers from your stories.<h2>
+
+<h2>Temporary hide/unhide your Instagram stories from all of your followers.<h2>
+
 
 ## Requirements
 - [Python 3](https://www.python.org/)
